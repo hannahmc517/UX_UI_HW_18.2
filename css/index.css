@@ -1,0 +1,299 @@
+.inline-block {
+    display: inline-block;
+    list-style-type: none;
+    vertical-align: top;
+    font-family: 'Poppins';
+    font-size: 14px;
+    padding: 10px 25px; 
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav {
+    padding: 1%;
+    margin-left: -28px;
+  }
+
+button {
+    background-color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16;
+    font-family: 'Poppins';
+    border-radius: 17px;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+button:hover {
+    background-color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.inline-block img {
+   width: 75px;
+   padding: 1%;
+   margin-left: 1px;
+}
+
+body {
+    background-color: #E3D5C9;
+}
+
+.hero {
+    display: flex;
+    padding: 0;
+    margin: 0 auto;
+    height: 630px;
+}
+
+.column2 {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.column2 img {
+    height: auto;
+    width: 560px;
+    display: block;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 60px;
+    margin-top: 100px;
+    width:  650px;
+}
+
+h2 {
+    margin-top: -10px;
+    font-size: 22px;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Poppins';  
+    font-weight: 600;
+    font-size: 35px;
+    padding-bottom: -2px;
+    padding-left: 60px;
+}
+
+.contentPa {
+    padding-right: 90px;
+}
+
+h1 {
+    font-family: 'Poppins';  
+    font-weight: 600;
+    font-size: 35px;
+    padding-bottom: -2px;
+}
+
+/* body stuff */
+
+.space {
+    background-color: #ffffff;
+    height: 60px;
+    margin-top: 1px;
+}
+
+/* footer stuff */
+
+/* 
+#lighter {
+    background-color: #E3D5C9BE;
+    background: no-repeat padding-box;
+    height: 8px;
+} */
+
+footer {
+    background-color: #E3D5C9;
+    width: 100%;
+    display: inline-block;
+    height: 175px;
+}
+
+#lighter {
+    background-color: #E3D5C9BE;
+    height: 8px;
+    width: 100%;
+}
+
+#footerButton {
+    display: flex;
+    justify-content: center;
+}
+
+#footerLinks {
+    height: 90px;
+    width: 900px;
+    align-items: center;
+    padding-left: 200px;
+}
+
+.button2{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* homework 18 start here my work */
+
+.myWork {
+    background-color: white;
+    /* height: 650px; */
+    height: 650px;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-areas: 'p1'
+    'p2';
+    grid-template-columns: 100%;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.projectInfo {
+    padding-left: 50px;
+    padding-right: 200px;
+    padding-top: 50px;
+}
+
+.p1 {
+    background-color: #ADBE8E;
+    grid-area: p1;
+    height: 260px;
+}
+
+.p2 {
+    background-color: #697B48;
+    grid-area: p2;
+    height: 260px;
+}
+
+.p1 img {
+    height: 225px;
+    width: auto;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.p2 img {
+    height: 225px;
+    width: auto;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+/* homework 18 start here skills */
+
+.spaceTwo {
+    background-color: #ffffff;
+    height: 80px;
+}
+
+.whiteBackground {
+    background-color: white;
+    border: solid 1px white;
+}
+
+.flexContainer {
+    display: flex;
+}
+
+.skills {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#flexC1{
+    width: 33%;
+    text-align: center;
+    padding: 50px;
+}
+
+#flexC2{
+    width: 33%; 
+    text-align: center;
+    padding: 50px;
+}
+
+#flexC3{
+    width: 33%;
+    text-align: center;
+    padding: 50px;
+}
+
+p {
+    font-family: poppins;
+    font-size: 16px;
+}
+
+.greenStrip {
+    background-color: #ADBE8E;
+    height: 33px;
+    width: 900px;
+    margin-left: -60px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+/* mobile media query */
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+
+    .flexContainer {
+        flex-direction: column;
+    }
+
+    #flexC1{
+        width: 100%;
+        text-align: center;
+    }
+    
+    #flexC2{
+        width: 100%;
+        text-align: center;
+    }
+    
+    #flexC3{
+        width: 100%;
+        text-align: center;
+    }
+
+    .workGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100%;
+        grid-template-areas: 
+        "p1"
+        "p2";
+        height: 400px;
+    }
+  }
