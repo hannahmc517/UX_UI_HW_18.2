@@ -13,7 +13,6 @@
         <style>
             body {
                 font-family:"Poppins, sans-serif";
-                /* font-family:"Poppins:wght@600, sans-serif"; */
             }
         </style>
     </head>
@@ -21,16 +20,30 @@
   <!-- Header -->
     <body>
         <section class="hero">
-           <div class="column1">
-                <nav class="inline-block">
-                    <ul>
-                        <li class="inline-block"><img src="images/logo.png"></li>
-                        <li class="inline-block">WORK</li>
-                        <li class="inline-block">ABOUT</li>
-                        <li class="inline-block">SKILLS</li>
-                        <li class="inline-block">CONTACT</li>
-                    </ul>
-                </nav>
+           <div>
+               <div class="mobileNav">
+                    <nav class="inline-block">
+                        <ul>
+                            <li class="inline-block logo"><img src="images/logo.png"></li>
+                            <li class="inline-block hamburgerMenu"><img src="https://img.icons8.com/fluency-systems-filled/48/000000/menu.png"/></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="webNav">
+                    <nav class="inline-blockWeb">
+                        <ul>
+                            <li class="inline-blockWeb"><img src="images/logo.png"></li>
+                            <li class="inline-blockWeb">WORK</li>
+                            <li class="inline-blockWeb">ABOUT</li>
+                            <li class="inline-blockWeb">SKILLS</li>
+                            <li class="inline-blockWeb">CONTACT</li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="column2">
+                    <img src="images/mainimage.png">
+                </div>
+                <!-- content -->
                     <div class="content">
                         <h1>Hannah Pratt</h1>
                             <div class="contentPa">
@@ -39,7 +52,7 @@
                         <button class="regButton">DOWNLOAD RESUME</button>
                     </div>
             </div>
-            <div class="column2">
+            <div class="column2Web">
                 <img src="images/mainimage.png">
             </div>
         </section>
@@ -52,15 +65,17 @@
 
     <section class="myWork">
         <h3>Work</h3>
-        <div class="workGrid">
+        <!-- <div class="workGrid"> -->
             <div class="p1">
                 <div class="project">
                     <div class="workImage"><img src="images/tripsis33x@2x.png"></div>
                     <div class="projectInfo">
+                        <div class="projectDescription">
+                            <p>
+                            Lorem ipsum dolor sit amet, consetetur s sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+                            </p>
+                        </div>
                         <button class="button2">VIEW PROJECT</button>
-                        <p>
-                        Lorem ipsum dolor sit amet, consetetur s sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-                        </p>
                     </div>
                 </div>
             </div>
@@ -68,52 +83,61 @@
                 <div class="project">
                     <div class="workImage"><img src="images/utahopenlands3x@2x.png"></div>
                     <div class="projectInfo">
+                            <div class="projectDescription">
+                                <p>
+                                et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+                                </p>
+                            </div>
                         <button class="button2">VIEW PROJECT</button>
-                        <p>
-                        ipscing elitr, sed diamdunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-                        </p>
-                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        <!-- </div> -->
     </section>
     <div class="space"></div>
     <!-- homework 18 start here skills -->
     
     <section class="skills">
-        <h1>UX/UI Skills</h1>
+        <!-- <h1>UX/UI Skills</h1> -->
 
         <!-- My UX Skills section coded using CSS flex -->
 
         <div class="flexContainer">
             <div id="flexC1">
-                <p>UI Design
-                User Experience
-                Information Architecture
-                Design Layout
-                Copy Writing
-                Interaction Design
-                Wireframes 
-                Prototyping in Adobe Xd
-                Storyboarding
-                Creativity
-                User Interviews
-                User Research
-                Persona Creation</p>
+                <h4>UX/UI SKILLS</h4>
+                <ul class="skillsList">
+                    <li class="skillsList">UI Design</li>
+                    <li>User Experience</li>
+                    <li>Information Architecture</li>
+                    <li>Design Layout</li>
+                    <li>Copy Writing</li>
+                    <li>Interaction Design</li>
+                    <li>Wireframes</li>
+                    <li>Prototyping</li>
+                    <li>Storyboarding</li>
+                    <li>Storyboarding</li>
+                    <li>Creativity</li>
+                    <li>User Interviews</li>
+                    <li>User Research</li>
+                    <li>Persona Creation</li>
+                </ul>
             </div>
             <div id="flexC3">
-                <p>Tools
-                    Adobe Xd
-                    Figma
-                    Google Sheets
-                    Miro
-                    InVision
-                    Visual Studio Code
-                    GitHub
-                    Adobe Suite Programs
-                    Pen & Paper</p>
+                <h4>TOOLS</h4>
+                    <ul class="skillsList">
+                        <li>Adobe Xd</li>
+                        <li>Figma</li>
+                        <li>Google Sheets</li>
+                        <li>Miro</li>
+                        <li>InVision</li>
+                        <li>Visual Studio Code</li>
+                        <li>GitHub</li>
+                        <li>Adobe Suite Programs</li>
+                        <li>Pen & Paper</li>
+                    </ul>
             </div>
             <div id="flexC3">
+                <h4>CONSTANT LEARNING</h4>
                 <p>Skills in the UX/UI world are something I’m always looking to expand, I enjoy learning new techniques and new programs. 
 
                     I would love to connect with a business that is working to improve sustainability, and show that in their website. </p>
